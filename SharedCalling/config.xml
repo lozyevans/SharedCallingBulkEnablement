@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<settings>
+  <EntraID></EntraID>
+  <ServicePlanName>MCOEV,MCOPSTN_PAYG_1</ServicePlanName> <!-- Service Plan Name, Direct Routing requires E5 (MCOEV) or, Microsoft Calling Plans require PAYG (MCOPSTN_PAYG_1) and Comms credits (MCOPSTNC). If multiple licenses, comma separate them -->
+  <SendChat>True</SendChat>
+  <ChatImage>https://hybridmeetingrooms.z33.web.core.windows.net/TeamsSharedCalling3.png</ChatImage>
+  <MigrationSuccessMessage>You have been successfully enabled for Teams Shared Calling.</MigrationSuccessMessage>
+  <MigrationFailMessage>Teams Shared Calling enablement failed. Please wait for further updates.</MigrationFailMessage>
+  <TenantDialPlan>
+    <GroupName></GroupName>
+    <PolicyName>DP-GB</PolicyName>
+  </TenantDialPlan>
+  <OnlineVoiceRoutingPolicy>
+    <GroupName></GroupName>
+    <PolicyName>TVRP_GB_All_Unrestricted</PolicyName>
+  </OnlineVoiceRoutingPolicy>
+  <CallingLineIdentity>
+    <GroupName></GroupName>
+    <PolicyName>CLI_UK_Main</PolicyName>
+  </CallingLineIdentity>
+  <TeamsCallingPolicyUsers>
+    <GroupName></GroupName>
+    <PolicyName>CP_Call_Agents</PolicyName>
+  </TeamsCallingPolicyUsers>
+  <TeamsVoicemailPolicy>
+    <GroupName></GroupName>
+    <PolicyName>TVMP_No_Profanity</PolicyName>
+  </TeamsVoicemailPolicy>
+  <TeamsSharedCallingPolicy>
+    <GroupName>ASG-TMS-U-SCP_UK_COR_44300012345</GroupName>
+    <PolicyName></PolicyName>
+  </TeamsSharedCallingPolicy>
+  <TeamsEmergencyCallingPolicy>
+    <GroupName></GroupName>
+    <PolicyName>ECP_UK_Main</PolicyName>
+  </TeamsEmergencyCallingPolicy>
+  <TeamsEmergencyCallRoutingPolicy>
+    <GroupName></GroupName>
+    <PolicyName>ECRP_UK_Main</PolicyName>
+  </TeamsEmergencyCallRoutingPolicy>
+  <TeamsVoiceApplicationPolicy>
+    <GroupName></GroupName>
+    <PolicyName>TVA_AACQ_Admin_01</PolicyName>
+  </TeamsVoiceApplicationPolicy>
+</settings>
