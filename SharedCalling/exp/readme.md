@@ -1,0 +1,1 @@
+Dont delete this folder as it is required by the script for export data
